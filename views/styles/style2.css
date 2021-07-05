@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+   background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.hero-image {
+  background-image: url("photo.png");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#grad1 {
+  height: 200px;
+  background-color: #cccccc;
+  background-image: radial-gradient(red, yellow);
+}
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
